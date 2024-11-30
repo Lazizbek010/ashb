@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #fbfbfb;
+}
+  
+  .container {
+   width: 80%;
+   margin: 0 auto;
+  }
+  .bosh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0 8px 0;
+
+  }
+  .titlew {
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+  }
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .hr {
+    color: black; font-weight: 800;
+  }
+.shaa {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.abfa {
+    padding-top: 30px;
+    background-color: #bbbbbb3f;
+}
+.card img {
+    -webkit-box-shadow: 4px 3px 33px 5px rgba(0, 145, 255, 0.604);
+    -moz-box-shadow: 4px 3px 33px 5px rgba(0, 145, 255, 0.41);
+    box-shadow: 4px 3px 33px 5px rgba(0, 145, 255, 0.541);
+}
+
+
+
+
+.schedule {
+  margin-bottom: 40px;    
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 2px solid #3a39396b;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    
+  }
+
+  .item:last-child {
+    border-bottom: none;
+  }
+
+  .country {
+    font-weight: 600;
+    color: #007bff;
+    font-size: 1.1rem;
+    padding: 6px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+
+  .time {
+    color: #333;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .item:hover {
+    background-color: #f0f8ff;
+  }
+
+
+  .item:hover {
+    background-color: #f0f8ff;
+  }
+.abduqoi12 {
+    background-image: url(./39770112_0_150_1501_994_2072x0_60_0_0_963c8b14b106cde7118291cdce71390f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 33px;
+}
+.foter {
+    margin-top: 20px;
+    padding: 5px 0;
+    background-color: #0000007f;
+}
+.foterr {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.foterr a {
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: blue;
+    text-decoration: underline;
+
+}
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .schedule {
+      padding: 15px;
+    }
+
+    .item {
+     align-items: center;
+    }
+
+    .activity {
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+
+  /* Media query: mobil qurilmalar uchun */
+  @media (max-width: 768px) {
+    .shaa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .card {
+      width: 90%; /* Ekran kengligining 90% ini egallaydi */
+      margin-bottom: 15px ;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .schedule {
+      padding: 15px;
+      margin: 10px;
+    }
+
+    .item {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    }
+
+  
+  }
+
+  /* Media Query for very small screens (e.g., mobile phones) */
+  @media (max-width: 480px) {
+    .country, .time {
+      font-size: 0.9rem;
+    }
+
+    .schedule {
+      width: 95%;
+    }
+
+    .item {
+      padding: 10px 0;
+    } }
